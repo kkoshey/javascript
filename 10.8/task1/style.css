@@ -1,0 +1,14 @@
+div img {
+    cursor: pointer;
+    width: 150px;
+    margin: 10px;
+}
+
+img {
+    width: 1000px;
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+}

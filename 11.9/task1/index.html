@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1>Форма опроса</h1>
+    <form action="" method="get" id="form1">
+        <div>
+            <label for="name">Имя пользователя:</label>
+            <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+            <label>Пол:</label>
+            <input type="radio" name="male" id="male">
+            <label for="male">Мужской</label>
+            <input type="radio" name="female" id="female">
+            <label for="female">Женский</label>
+        </div>
+        <div>
+            <label for="grade">Оценка сервиса:</label>
+            <input type="range" min="0" max="10" name="grade" id="grade">
+        </div>
+        <div>
+            <label>Интересы пользователя:</label><br>
+            <input type="checkbox" id="feature1" name="feature1">
+            <label for="feature1">Спорт</label><br>
+            <input type="checkbox" id="feature2" name="feature2">
+            <label for="feature2">Музыка</label><br>
+            <input type="checkbox" id="feature3" name="feature3">
+            <label for="feature3">Путешествия</label><br>
+            <input type="checkbox" id="feature4" name="feature4">
+            <label for="feature4">Кино</label><br>
+        </div>
+        <div> 
+            <label for="comments">Дополнительные комментарии:</label><br>
+            <textarea type="text" name="comments" id="comments"></textarea>
+        </div>
+        <button type="submit">Отправить</button>
+    </form>
+    <div></div>
+</body>
+</html>
